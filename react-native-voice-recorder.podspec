@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '8.0'
 
   s.preserve_paths         = 'LICENSE', 'package.json'
-  s.source_files           = '**/*.{h,m}'
-  s.dependency             'React-Core'
+  s.source_files           = 'ios/**/*.{h,m}'
   s.dependency             'IQAudioRecorderController'
 end
